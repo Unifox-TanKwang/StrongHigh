@@ -1,7 +1,7 @@
 #include<iostream>
 #include<string>
 using namespace std;
-// is-a »ó¼Ó, ´ÜÀÏ»ó¼Ó
+// is-a ìƒì†, ë‹¨ì¼ìƒì†
 class tanKwang {
 public:
 	void doCppHomework(){
@@ -22,7 +22,7 @@ public:
 	}
 };
 
-// has-a »ó¼Ó, ´ÙÁß»ó¼Ó
+// has-a ìƒì†, ë‹¤ì¤‘ìƒì†
 class CPU {
 public:
 	CPU() {
@@ -67,12 +67,12 @@ public:
 	CPU CPU1;
 	RAM RAM1;
 };
-// »ïÁß»ó¼Ó
+// ì‚¼ì¤‘ìƒì†
 class Animal {
 public:
 	void howOldAreYou(){
 		cout << "I'm " << age << "years old.\n";
-		// µ¿¹°µµ ³ªÀÌ´Â ÀÖÀ½;;
+		// ë™ë¬¼ë„ ë‚˜ì´ëŠ” ìˆìŒ;;
 	}
 protected:
 	int age;
@@ -107,7 +107,7 @@ int main() {
 	newcom.CPU1.cpuInfo();
 	newcom.RAM1.ramInfo();
 
-	Korean KimMinSu = { 17, "±è¹Î¼ö" };
+	Korean KimMinSu = { 17, "ê¹€ë¯¼ìˆ˜" };
 	KimMinSu.howOldAreYou();
 	KimMinSu.whatIsYourName();
 	KimMinSu.DoYouKnow();
